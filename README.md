@@ -21,7 +21,7 @@ cd DERMANet
 Install dependencies
 pip install -r requirements.txt
 
-# 2. Dataset
+## 2. Dataset
 dataset/
    train/
        healthy/
