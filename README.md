@@ -10,18 +10,20 @@ The code supports:
 
 The repository is provided to ensure **reproducibility of the results reported in the manuscript**.
 
-
-# 1. Installation
+ ## 1. Installation
 
 Clone the repository
 
 ```bash
 git clone https://github.com/bhuvanya/Nail-Disease-Classification.git
 cd DERMANet
-Install dependencies
+```
+
+ ## 2. Install dependencies
 pip install -r requirements.txt
 
-## 2. Dataset
+
+## 3. Dataset
 dataset/
    train/
        healthy/
@@ -34,14 +36,14 @@ dataset/
        onychomycosis/
 
 
-## 3. Training the Model
+## 4. Training the Model
 DERMANet.ipynb
 
-##4. Cross Validation
+## 5. Cross Validation
 5 Fold Stratified CV.ipynb
 
-##5. Model inference
+## 6. Model inference
 inference.ipynb
 
-##6. Grad-CAM Visualizion
+## 7. Grad-CAM Visualizion
 grad-cam.ipynb
