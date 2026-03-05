@@ -33,14 +33,15 @@ dataset/
        psoriasis/
        onychomycosis/
 
-# 3. Training the Model
+
+## 3. Training the Model
 DERMANet.ipynb
 
-#4. Cross Validation
+##4. Cross Validation
 5 Fold Stratified CV.ipynb
 
-#5. Model inference
+##5. Model inference
 inference.ipynb
 
-#6. Grad-CAM Visualizion
+##6. Grad-CAM Visualizion
 grad-cam.ipynb
