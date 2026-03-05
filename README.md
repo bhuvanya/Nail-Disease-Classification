@@ -1,21 +1,27 @@
-This repository contains the implementation of DERMANet (ConvNeXt + CBAM) for nail disease classification. The code allows reproduction of the experiments reported in the manuscript including:
+This repository contains the implementation of **DERMANet (ConvNeXt + CBAM)** proposed in the paper:
 
+**Deep Learning-Based Nail Disease Diagnosis Leveraging the DERMANet Architecture with ConvNeXt and CBAM**
+
+The code supports:
 - model training
-- 5-fold cross validation
+- stratified 5-fold cross-validation
+- model inference
 - Grad-CAM visualization
-- inference
 
-# Nail-Disease-Classification
-# DERMANet Reproducibility
-## Install
+The repository is provided to ensure **reproducibility of the results reported in the manuscript**.
+
+
+# 1. Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/bhuvanya/Nail-Disease-Classification.git
+cd DERMANet
+Install dependencies
 pip install -r requirements.txt
-## Train model
-python train_dermanet.ipynb
-## Test model
-python inference.ipynb
-## Generate GradCAM
-python gradcam.ipynb
-**Dataset structure**
+
+# 2. Dataset
 dataset/
    train/
        healthy/
@@ -26,4 +32,15 @@ dataset/
        healthy/
        psoriasis/
        onychomycosis/
-    
+
+# 3. Training the Model
+DERMANet.ipynb
+
+#4. Cross Validation
+5 Fold Stratified CV.ipynb
+
+#5. Model inference
+inference.ipynb
+
+#6. Grad-CAM Visualizion
+grad-cam.ipynb
